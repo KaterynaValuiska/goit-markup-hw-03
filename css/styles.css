@@ -73,9 +73,10 @@ ul {
 /* hero */
 .hero {
     background-color: var(--title-color);
-    outline: 2px solid tomato;
     text-align: center;
     margin-bottom: 120px;
+   padding-top: 188px;
+   height: 600px;
 }
 .hero-title {
     color: #ffffff;
@@ -128,7 +129,11 @@ ul {
     padding-bottom: 120px;
 
 }
-.team { background-color: var(--bac-secondary-color);}
+
+.section.team {
+    background-color: var(--bac-secondary-color);
+    padding-top: 120px;
+}
 .section-title {
     color: var(--title-color);
     font-weight: 700;
@@ -138,6 +143,7 @@ ul {
     margin-top: 0;
     margin-bottom: 72px;
     
+    
 }
 
 .title-small {
@@ -146,9 +152,13 @@ ul {
     line-height: 1.2;
     margin-top: 0;
     margin-bottom: 8px;
+    padding-top: 32px;
+}
+.title-small.specifics {
+    padding-top: 0;
 }
 .text {
-    margin-top: 0;
+    margin: 0;
 }
 /* title invisible */
 .visually-hidden {
@@ -168,13 +178,14 @@ ul {
 .footer {
     background-color: var(--title-color);
     color: #ffffff;
+    padding: 100px 0;
 }
 .footer .logo {
     color: #ffffff;
 }
 /* blok */
 .container {
-    width: 1152px;
+    width: 1158px;
     padding-left: 12px;
     padding-right: 12px;
     margin-left: auto;
@@ -184,4 +195,7 @@ ul {
 
 .btn-list {
     margin-bottom: 72px;
+    padding-top: 96px;
 }
+
+/* flex */
