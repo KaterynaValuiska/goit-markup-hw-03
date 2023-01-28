@@ -43,7 +43,12 @@ ul {
 
 /* nav */
 .nav-pages {
+    display: block;
+        padding-top: 24px;
+        padding-bottom: 24px;
+
     color: var(--title-color);
+
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -79,12 +84,14 @@ ul {
    height: 600px;
 }
 .hero-title {
+    width: 494px;
     color: #ffffff;
     font-weight: 700;
     font-size: 56px;
     line-height: 1;
     margin-top: 0;
     margin-bottom: 48px;
+   
 }
 
 /* buttons */
@@ -159,6 +166,8 @@ ul {
 }
 .text {
     margin: 0;
+    width: 264px;
+    letter-spacing: 0.02em;
 }
 /* title invisible */
 .visually-hidden {
@@ -194,8 +203,67 @@ ul {
 }
 
 .btn-list {
+    display: flex;
     margin-bottom: 72px;
     padding-top: 96px;
+    justify-content: center;
+}
+.btn-list .item+.item {
+    margin-left: 24px;
+}
+/* flex */
+
+.header {
+    display: flex;
+    align-items: center;
+}
+.site-nav {
+    display: flex;
+    margin-left: 76px;
+}
+.site-nav .item {
+    display: block;
+   
+}
+.site-nav .item:not(:last-child) {
+margin-right: 40px;
 }
 
-/* flex */
+.address {
+    display: flex;
+    
+}
+.address .item + .item {
+    margin-left: 40px;
+}
+.address-item {
+    margin-left: auto;
+}
+.specifics-list {
+    display: flex;
+}
+
+.specifics-list .item +.item {
+    margin-left: 24px;
+}
+.we-doing {
+    display: flex;
+}
+.we-doing .item +.item {
+    margin-left: 24px;
+}
+.our-team {
+    display: flex;
+}
+.our-team .item +.item {
+    margin-left: 24px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio .item +.item {
+    margin-left: 24px;
+}
