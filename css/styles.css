@@ -89,8 +89,7 @@ ul {
     font-weight: 700;
     font-size: 56px;
     line-height: 1;
-    margin-top: 0;
-    margin-bottom: 48px;
+    margin: 0 auto;
    
 }
 
@@ -112,6 +111,7 @@ ul {
     padding: 16px 32px;
     min-width: 169px;
     text-align: center;
+    margin-top: 48px;
     
 }
     
@@ -125,7 +125,7 @@ ul {
     border-color: var(--btn-color);
 }
 
-.btn.btn-color:hover {
+.btn.btn-portfolio:hover {
     background-color: var(--accent-color);
     color: #ffffff;
 }
@@ -210,7 +210,9 @@ ul {
     padding-right: 12px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
+}
+.container.header {
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .btn-list {
