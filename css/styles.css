@@ -267,7 +267,13 @@ margin-right: 40px;
 }
 .our-team {
     display: flex;
+    }
+
+.our-team .item {
+   text-align: center; 
+
 }
+
 .our-team .item +.item {
     margin-left: 24px;
 }
