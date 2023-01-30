@@ -137,6 +137,9 @@ ul {
     padding-top: 120px;
 
 }
+.section.what-doing {
+    padding: 0;
+}
 
 .section.team {
     background-color: var(--bac-secondary-color);
