@@ -79,8 +79,8 @@ ul {
 .hero {
     background-color: var(--title-color);
     text-align: center;
-    margin-bottom: 120px;
    padding-top: 188px;
+   padding-bottom: 292px;
    height: 600px;
 }
 .hero-title {
@@ -134,6 +134,7 @@ ul {
 .section {
     color: var(--text-color);
     padding-bottom: 120px;
+    padding-top: 120px;
 
 }
 
@@ -159,7 +160,6 @@ ul {
     line-height: 1.2;
     margin-top: 0;
     margin-bottom: 8px;
-    padding-top: 32px;
 }
 .title-small.specifics {
     padding-top: 0;
@@ -168,6 +168,15 @@ ul {
     margin: 0;
     width: 264px;
     letter-spacing: 0.02em;
+    line-height: 24px;
+}
+.our-team-text {
+padding-top: 32px;
+padding-bottom: 32px;
+}
+.portfolio-text {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .portfolio .title-small {
@@ -211,14 +220,13 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
-.container.header {
+header {
     border-bottom: 1px solid #E7E9FC;
 }
 
 .btn-list {
     display: flex;
     margin-bottom: 72px;
-    padding-top: 96px;
     justify-content: center;
 }
 .btn-list .item+.item {
@@ -288,7 +296,6 @@ margin-right: 40px;
     width: 360px;
     margin-right: 24px;
     margin-bottom: 48px;
-    padding-bottom: 32px;
     border: 1px solid #E7E9FC;
 }
 
